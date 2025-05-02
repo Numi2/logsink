@@ -87,15 +87,6 @@ Deploying
   env-vars above plus Fly app details.  A full copy-paste walkthrough lives in
   `docs/log-sink-quick-start.md`.
 
-Cost model (per tenant)
------------------------
-
-* Ingest Machine: auto-sleeps → < **$0.01 / month**.
-* Attestation Machine: 30 s / day → < **$0.01 / month**.
-* Storage: Wasabi / Backblaze ≈ **$0.005 / GB**. 40 GB of logs = $0.20.
-
-At a SaaS price of $99 / tenant / month you retain >90 % gross margins while
-offering auditors a true immutable log trail.
 
 Road-map ideas
 --------------
